@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { PonyComponent } from './pony/pony.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PonyComponent
   ],
   imports: [
     BrowserModule
